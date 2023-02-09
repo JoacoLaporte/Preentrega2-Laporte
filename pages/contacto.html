@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../resource/img/pestaña1.jpg"/>
+        <link rel="stylesheet" href="../css/estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Mea+Culpa&family=Smooch+Sans:wght@300&family=The+Nautigal&display=swap" rel="stylesheet">
+        <title> Contacto</title>
+    </head>
+    <body>
+
+<!--HEADER-CONTACTO-->
+        
+        <header id="header-contacto">
+            <div class="contactoheader__contenedor">
+                <h1 class="contactoheader__titulo"> Contacto </h1>
+                <img class="contactoheader__img" src="../resource/img/contacto.jpg" alt="imgheader">
+            </div>
+    
+            <nav class="barramenu">
+                <ul class="barramenu__lista">
+                    <li class="barramenu__items">
+                        <a class="barramenu__enlaces" href="../index.html" style="font-family: 'The Nautigal', cursive;"> Matias Cremades Tatto</a> 
+                    </li>
+    
+                    <li class="barramenu__items">
+                        <a class="barramenu__enlaces" href="../pages/sobremi.html">SOBRE MI</a>
+                    </li>
+    
+                    <li class="barramenu__items">
+                        <a class="barramenu__enlaces" href="../pages/trabajos.html">TRABAJOS</a>
+                    </li>
+    
+                    <li class="barramenu__items">
+                        <a class="barramenu__enlaces" href="../pages/estudio.html">ESTUDIO</a>
+                    </li>
+    
+                    <li class="barramenu__items">
+                        <a class="barramenu__enlaces" href="../pages/cuidados.html">CUIDADOS</a>
+                    </li>
+    
+                    <li class="barramenu__items">
+                        <a class="barramenu__enlaces" href="../pages/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+<!--MAIN-CONTACTO-->
+
+    <main id="main-contacto">
+        <div class="contactomain__caja1">
+            <h1 class="contactomain__titulo">ENVIANOS TU MENSAJE </h1>
+        </div>
+        
+        <div class="caja-formulario">
+            <form action="procesar.php" method="post">          
+                <fieldset>
+                    <p>
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" required:"true">
+                    </p>
+
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Correo electronico" required:"true">
+                    </p>
+
+                    <p>
+                        <label for="assunto">Asunto</label>
+                        <input type="text" name="asunto" id="asunto" placeholder="Escribe el asunto">
+                    </p>
+
+                    <p>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escribe el mensaje"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Enviar">
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+<!--FOOTER-CONTACTO-->    
+
+    <footer id="footer-contacto">
+        <div class="footer__caja1">
+            <h3 class="footer__titulo1">MATIAS CREMADES</h3>
+            <p class="footer__texto1"> Lorem ipsum dolor sit amet consectetur adipisicing elit.Nihil qui, perferendis distinctio architecto dolorum nostrum autem alias in nulla, error neque omnis rerum voluptatem tenetur, deleniti nisi provident doloribus odio.
+            </p>
+        </div>
+
+        <div class="footer__caja2">
+            <h3 class="footer__titulo2">DATOS CONTACO</h3>
+            <p class="footer__texto2">Direccion: Humberto 1º 2940</p>
+            <p class="footer__texto3">Telefono: 15-64702050</p>
+            <p class="footer__texto4">E-mail: Matiascremades@hotmail.com</p>
+        </div>
+
+        <div class="footer__caja3">
+            <h3 class="footer__titulo3">SEGUINOS</h3>
+            <a class="footer__enlace1" href="https://www.instagram.com/matiascremades/" target="_blank">
+                <img class="footer__icono1" src="../resource/iconos/instagram.png" alt="iconoinsta-footer"> 
+            </a>
+            
+            <a class="footer__enlace2" href="https://es-la.facebook.com/matias.cremades" target="_blank" >
+                <img class="footer__icono2" src="../resource/iconos/facebook.png" alt="iconoface-footer">
+            </a>
+        </div>
+    </body>
+</html>
